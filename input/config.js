@@ -1,6 +1,6 @@
 const fs = require("fs");
-const width = 1000;
-const height = 1000;
+const width = 3500;
+const height = 3500;
 const dir = __dirname;
 const description = "This is an NFT made by the coolest generative code.";
 const baseImageUri = "https://hashlips/nft";
