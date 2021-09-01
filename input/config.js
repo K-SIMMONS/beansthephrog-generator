@@ -44,58 +44,58 @@ const getElements = (path) => {
 const layers = [
   {
     elements: {
-      original: getElements(`${dir}/ball/original`),
-      rare: getElements(`${dir}/ball/rare`),
-      super_rare: getElements(`${dir}/ball/super_rare`),
+      original: getElements(`${dir}/background/original`),
+      rare: getElements(`${dir}/background/rare`),
+      super_rare: getElements(`${dir}/background/super_rare`),
     },
     position: { x: 0, y: 0 },
     size: { width: width, height: height },
   },
   {
     elements: {
-      original: getElements(`${dir}/eye color/original`),
-      rare: getElements(`${dir}/eye color/rare`),
-      super_rare: getElements(`${dir}/eye color/super_rare`),
+      original: getElements(`${dir}/beanColor/original`),
+      rare: getElements(`${dir}/beanColor/rare`),
+      super_rare: getElements(`${dir}/beanColor/super_rare`),
     },
     position: { x: 0, y: 0 },
     size: { width: width, height: height },
   },
   {
     elements: {
-      original: getElements(`${dir}/iris/original`),
-      rare: getElements(`${dir}/iris/rare`),
-      super_rare: getElements(`${dir}/iris/super_rare`),
+      original: getElements(`${dir}/hat/original`),
+      rare: getElements(`${dir}/hat/rare`),
+      super_rare: getElements(`${dir}/hat/super_rare`),
     },
     position: { x: 0, y: 0 },
     size: { width: width, height: height },
   },
-  {
-    elements: {
-      original: getElements(`${dir}/shine/original`),
-      rare: getElements(`${dir}/shine/rare`),
-      super_rare: getElements(`${dir}/shine/super_rare`),
-    },
-    position: { x: 0, y: 0 },
-    size: { width: width, height: height },
-  },
-  {
-    elements: {
-      original: getElements(`${dir}/bottom lid/original`),
-      rare: getElements(`${dir}/bottom lid/rare`),
-      super_rare: getElements(`${dir}/bottom lid/super_rare`),
-    },
-    position: { x: 0, y: 0 },
-    size: { width: width, height: height },
-  },
-  {
-    elements: {
-      original: getElements(`${dir}/top lid/original`),
-      rare: getElements(`${dir}/top lid/rare`),
-      super_rare: getElements(`${dir}/top lid/super_rare`),
-    },
-    position: { x: 0, y: 0 },
-    size: { width: width, height: height },
-  },
+  // {
+  //   elements: {
+  //     original: getElements(`${dir}/shine/original`),
+  //     rare: getElements(`${dir}/shine/rare`),
+  //     super_rare: getElements(`${dir}/shine/super_rare`),
+  //   },
+  //   position: { x: 0, y: 0 },
+  //   size: { width: width, height: height },
+  // },
+  // {
+  //   elements: {
+  //     original: getElements(`${dir}/bottom lid/original`),
+  //     rare: getElements(`${dir}/bottom lid/rare`),
+  //     super_rare: getElements(`${dir}/bottom lid/super_rare`),
+  //   },
+  //   position: { x: 0, y: 0 },
+  //   size: { width: width, height: height },
+  // },
+  // {
+  //   elements: {
+  //     original: getElements(`${dir}/top lid/original`),
+  //     rare: getElements(`${dir}/top lid/rare`),
+  //     super_rare: getElements(`${dir}/top lid/super_rare`),
+  //   },
+  //   position: { x: 0, y: 0 },
+  //   size: { width: width, height: height },
+  // },
 ];
 
 module.exports = {

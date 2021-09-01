@@ -23,13 +23,13 @@ const saveImage = (_editionCount) => {
 };
 
 // adds a signature to the top left corner of the canvas
-const signImage = (_sig) => {
-  ctx.fillStyle = "#000000";
-  ctx.font = "bold 30pt Courier";
-  ctx.textBaseline = "top";
-  ctx.textAlign = "left";
-  ctx.fillText(_sig, 40, 40);
-};
+// const signImage = (_sig) => {
+//   ctx.fillStyle = "#000000";
+//   ctx.font = "bold 30pt Courier";
+//   ctx.textBaseline = "top";
+//   ctx.textAlign = "left";
+//   ctx.fillText(_sig, 40, 40);
+// };
 
 // generate a random color hue
 const genColor = () => {
@@ -209,7 +209,7 @@ const startCreating = async () => {
         attributesList.push(getAttributeForElement(element));
       });
       // add an image signature as the edition count to the top left of the image
-      signImage(`#${editionCount}`);
+      // signImage(`#${editionCount}`);
       // write the image to the output directory
       saveImage(editionCount);
       let nftMetadata = generateMetadata(newDna, editionCount, attributesList);
